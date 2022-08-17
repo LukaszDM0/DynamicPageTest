@@ -3,17 +3,19 @@ h1 {
     font-family: Futura;
 }
 
-#resultDiv {
+#resultP {
     padding-bottom: 2%;
     font-family: Futura;
 }
 
 .Title {
+    font-family: Futura;
     font-size: larger;
     font-weight: bolder;
 }
 
 .Data {
+    font-family: Futura;
     font-style: italic;
     font-weight: lighter;
 }
