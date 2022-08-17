@@ -9,9 +9,6 @@ require(["dojo/dom", "dojo/request"],
             var info = "<p class='Title'>User ID</p>" + "<p class='Data'>" + data.id + "</p>" + 
             "<p class='Title'>Title</p>" + "<p class='Data'>" + data.title + "</p>"
 
-            // Display image
-            //var pic = "<img src=" + data.url + ">"
-
             var old = resultDiv.innerHTML;
             resultDiv.innerHTML = info + old;
 
@@ -27,7 +24,6 @@ require(["dijit/form/Button", "dojo/dom", "dojo/request", "dojo/domReady!"], fun
     var button = new Button({
         label: "Change picture",
         onClick: function(){ 
-            
             
             var changePic = dom.byId("changePic");
 
