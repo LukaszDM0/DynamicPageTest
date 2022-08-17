@@ -3,15 +3,23 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="testcss.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css">
+    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
     <title>TEST WEBPAGE</title>
 </head>
 <body>
     <h1>Data from JSONPlaceholder</h1>
     
-    <div id="resultDiv"></div>
-    <picture id="resultPic"></picture> 
+    <div id="resultDiv">
+        <img id="changePic" src="https://via.placeholder.com/600/24f355">
+    </div>
+
+
+    <div class="claro">
+        <button id="btn"></button>
+    </div>
 
     <script src="testscript.js"></script>
+
 </body>
 </html>
