@@ -1,0 +1,19 @@
+h1 {
+    padding-bottom: 2%;
+    font-family: Futura;
+}
+
+#resultDiv {
+    padding-bottom: 2%;
+    font-family: Futura;
+}
+
+.Title {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Data {
+    font-style: italic;
+    font-weight: lighter;
+}
